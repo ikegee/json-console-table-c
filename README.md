@@ -26,3 +26,22 @@ A lightweight C utility that generates formatted console tables and tree views f
 ```bash
 gcc -o json_table json_print_table.c cJSON.c -I.
 gcc -o json_tree json_print_tree.c cJSON.c -I.
+
+## Usage
+- ./json_table [path_to_json_file] 
+- ./json_tree [path_to_json_file]
+
+## Requirements
+ - C compiler (gcc recommended)
+ - cJSON library (included)
+ - Standard C libraries
+
+## Limitations
+ - Maximum file size: 100KB
+ - Maximum field width: 30 characters
+ - Maximum displayed fields: 10
+ - Maximum displayed rows: 20
+
+## License
+ - This project is licensed under the MIT License. See the LICENSE file for details.
+ - cJSON library is Copyright (c) 2009-2017 Dave Gamble and cJSON contributors.
