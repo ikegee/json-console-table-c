@@ -47,16 +47,6 @@ Input JSON (json_example.json):
   - Type indicators (Array, Object, String, Number)
   - Clear parent-child relationship display
   
-## Building
-
-```bash
-gcc -o json_table json_print_table.c cJSON.c -I.
-gcc -o json_tree json_print_tree.c cJSON.c -I.
-
-## Usage
-- ./json_table [path_to_json_file] 
-- ./json_tree [path_to_json_file]
-
 ## Requirements
  - C compiler (gcc recommended)
  - cJSON library (included)
