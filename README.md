@@ -6,8 +6,13 @@ A lightweight C utility that generates formatted console tables and tree views f
 
 - **Two Display Modes**:
   - Table View (`json_print_table.c`): Displays JSON arrays as formatted tables
+
+  - ![json_print_table](https://github.com/user-attachments/assets/1449d2af-8e55-429f-a624-312a8f48cf97)
+
   - Tree View (`json_print_tree.c`): Shows hierarchical JSON structure
-  
+
+  -   ![json_print_tree](https://github.com/user-attachments/assets/9e7d094a-b347-480e-b5cc-3f4da217b72f)
+
 - **Table View Features**:
   - Dynamic column width adjustment
   - Smart data type formatting (currency, numbers, text)
