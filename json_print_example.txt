@@ -1,0 +1,35 @@
+
+gcc -o xyz json_print_table.c cJSON.c -I.
+.\xyz.exe .\json_example.json > json_print_table.txt                
+
+Table: configurations                                                                                1/20
++-------+-------------+---------+--------------------------+-----------+-------------+------------------+
+| name  | includePath | defines | compilerPath             | cStandard | cppStandard | intelliSenseMode |
++-------+-------------+---------+--------------------------+-----------+-------------+------------------+
+| Win32 | [obj]       | [obj]   | C:\MinGW-w64\bin\gcc.exe | c17       | gnu++14     | windows-gcc-x64  |
++-------+-------------+---------+--------------------------+-----------+-------------+------------------+
+JSON Format Unsupported; please adjust Code
+Current format: Nested objects
+Expected format: Array of objects
+
+gcc -o xyz json_print_tree.c cJSON.c -I.
+.\xyz.exe .\json_example.json > json_print_tree.txt  
+
+JSON Array Structure for: .\json_example.json
+---------------------------------------
+ {Object}:
+  |__ configurations [Array]:
+       {Object}:
+      |__ name: "Win32"
+      |__ includePath [Array]:
+          : "${workspaceFolder}/**"
+      |__ defines [Array]:
+          : "_DEBUG"
+          : "UNICODE"
+          : "_UNICODE"
+      |__ compilerPath: "C:\MinGW-w64\bin\gcc.exe"
+      |__ cStandard: "c17"
+      |__ cppStandard: "gnu++14"
+      |__ intelliSenseMode: "windows-gcc-x64"
+  |__ version: 4
+  
