@@ -27,6 +27,7 @@ Input JSON (json_example.json):
     "version": 4
 }
 
+
 ## Features
 
 - **Two Display Modes**:
