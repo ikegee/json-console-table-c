@@ -1,4 +1,3 @@
-
 gcc -o xyz json_print_table.c cJSON.c -I.
 .\xyz.exe .\json_example.json > json_print_table.txt                
 
