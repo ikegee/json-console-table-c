@@ -27,9 +27,6 @@ Input JSON (json_example.json):
     "version": 4
 }
 ```
-
-## Features
-
 - **Two Display Modes**:
   - Table View (`json_print_table.c`): Displays JSON arrays as formatted tables
   - ![json_print_table](https://github.com/user-attachments/assets/1449d2af-8e55-429f-a624-312a8f48cf97)
