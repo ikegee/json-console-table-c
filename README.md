@@ -28,7 +28,7 @@ Input JSON (json_example.json):
 }
 ```
 ## Usage
-- Please see json_print_example.txt
+- Please see `json_print_example.txt`
   
 - **Two Display Modes**:
   - Table View (`json_print_table.c`): Displays JSON arrays as formatted tables
