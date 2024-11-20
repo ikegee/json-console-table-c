@@ -46,7 +46,6 @@ Input JSON ([`json_example.json`](json_example.json)):
   - Row count limits for large datasets
   - Truncation of long text fields
   - Column filters and formatting rules
-  - Support for nested JSON structures `(nested objects display as [obj] in tables - use tree view for full depth visualization)`
   
 - **Tree View Features**:
   - Visual hierarchy with indentation
@@ -58,11 +57,8 @@ Input JSON ([`json_example.json`](json_example.json)):
  - cJSON library (included)
  - Standard C libraries
 
-## Limitations (Modifiable)
- - Maximum file size: 100KB
- - Maximum field width: 30 characters
- - Maximum displayed fields: 10
- - Maximum displayed rows: 20
+## Limitations
+  - Nested JSON structures `(nested objects display as [obj] in tables - use tree view for full depth visualization)`
 
 ## License
  - This project is licensed under the MIT License. See the LICENSE file for details.
