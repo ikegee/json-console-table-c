@@ -42,7 +42,7 @@ Input JSON (json_example.json):
   - Row count limits for large datasets
   - Truncation of long text fields
   - Column filters and formatting rules
-  - Support for nested JSON structures
+  - Support for nested JSON structures `(nested objects display as [obj] in tables - use tree view for full depth visualization)`
   
 - **Tree View Features**:
   - Visual hierarchy with indentation
