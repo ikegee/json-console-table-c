@@ -29,12 +29,19 @@ Input JSON (json_example.json):
 ```
 ## Usage
 - ## Usage
-    Please see <span style="background-color:#FFFF00">json_print_example.txt</span>
+    Please see <span style="background-color:#FFFF00">`json_print_example.txt`</span>
 
 - **Two Display Modes**:
   - Table View (`json_print_table.c`): Displays JSON arrays as formatted tables
-  - ![json_print_table](https://github.com/user-attachments/assets/1449d2af-8e55-429f-a624-312a8f48cf97)
-
+  - Table: configurations                                                                                1/20
+    +-------+-------------+---------+--------------------------+-----------+-------------+------------------+
+    | name  | includePath | defines | compilerPath             | cStandard | cppStandard | intelliSenseMode |
+    +-------+-------------+---------+--------------------------+-----------+-------------+------------------+
+    | Win32 | [obj]       | [obj]   | C:\MinGW-w64\bin\gcc.exe | c17       | gnu++14     | windows-gcc-x64  |
+    +-------+-------------+---------+--------------------------+-----------+-------------+------------------+
+    JSON Format Unsupported; please adjust Code
+    Current format: Nested objects
+    Expected format: Array of objects
   - Tree View (`json_print_tree.c`): Shows hierarchical JSON structure
   - ![json_print_tree](https://github.com/user-attachments/assets/9e7d094a-b347-480e-b5cc-3f4da217b72f)
 
