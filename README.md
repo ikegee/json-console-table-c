@@ -29,8 +29,9 @@ Input JSON ([`json_example.json`](json_example.json)):
 ```
 ## Building
 - bash
-   - gcc -o json_table json_print_table.c cJSON.c -I.
-   - gcc -o json_tree json_print_tree.c cJSON.c -I.
+   - gcc -o json_table json_print_table.c cJSON.c -I. ./json_table [path_to_json_file]
+   - gcc -o json_tree json_print_tree.c cJSON.c -I. ./json_tree [path_to_json_file]
+
 - Please see [`json_print_example.txt`](json_print_example.txt)
 
 - **Two Display Modes**:
