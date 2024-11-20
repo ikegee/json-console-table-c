@@ -4,7 +4,7 @@ A lightweight C utility that generates formatted console tables and tree views f
 
 ## Example
 
-Input JSON (json_example.json):
+Input JSON ([`json_example.json`](json_example.json)):
 ```json
 {
     "configurations": [
