@@ -27,8 +27,11 @@ Input JSON ([`json_example.json`](json_example.json)):
     "version": 4
 }
 ```
-## Usage
-Please see [`json_print_example.txt`](json_print_example.txt)
+## Building
+- bash
+   - gcc -o json_table json_print_table.c cJSON.c -I.
+   - gcc -o json_tree json_print_tree.c cJSON.c -I.
+- Please see [`json_print_example.txt`](json_print_example.txt)
 
 - **Two Display Modes**:
   - Table View (`json_print_table.c`): Displays JSON arrays as formatted tables
