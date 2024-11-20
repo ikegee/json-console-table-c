@@ -33,12 +33,13 @@ Input JSON (json_example.json):
 
 - **Two Display Modes**:
   - Table View (`json_print_table.c`): Displays JSON arrays as formatted tables
-  - Table: configurations                                                                                1/20
-    +-------+-------------+---------+--------------------------+-----------+-------------+------------------+
-    | name  | includePath | defines | compilerPath             | cStandard | cppStandard | intelliSenseMode |
-    +-------+-------------+---------+--------------------------+-----------+-------------+------------------+
-    | Win32 | [obj]       | [obj]   | C:\MinGW-w64\bin\gcc.exe | c17       | gnu++14     | windows-gcc-x64  |
-    +-------+-------------+---------+--------------------------+-----------+-------------+------------------+
+    Table: configurations                                    1/20
+    +--------+------------------+----------+-----------------+
+    | name   | includePath      | defines  | compilerPath    |
+    +--------+------------------+----------+-----------------+
+    | Win32  | [obj]            | [obj]    | C:\MinGW-w64\...|
+    +--------+------------------+----------+-----------------+
+
     JSON Format Unsupported; please adjust Code
     Current format: Nested objects
     Expected format: Array of objects
