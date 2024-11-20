@@ -1,4 +1,4 @@
-# Console table generator for JSON data structures using cJSON
+# ANSI C table formatter plugin for cJSON - transforms JSON arrays into formatted console tables
 
 A lightweight C utility that generates formatted console tables and tree views from JSON data structures. Built on top of the cJSON library, this tool provides clean and organized visualization of JSON data directly in the terminal.
 
