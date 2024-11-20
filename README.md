@@ -28,7 +28,8 @@ Input JSON (json_example.json):
 }
 ```
 ## Usage
-- Please see <span style="background-color:#FFFF00">`json_print_example.txt`</span>
+- ## Usage
+Please see [`json_print_example.txt`](json_print_example.txt)
 
 - **Two Display Modes**:
   - Table View (`json_print_table.c`): Displays JSON arrays as formatted tables
