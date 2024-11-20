@@ -33,18 +33,9 @@ Input JSON (json_example.json):
 
 - **Two Display Modes**:
   - Table View (`json_print_table.c`): Displays JSON arrays as formatted tables
-    Table: configurations                                    1/20
-    +--------+------------------+----------+-----------------+
-    | name   | includePath      | defines  | compilerPath    |
-    +--------+------------------+----------+-----------------+
-    | Win32  | [obj]            | [obj]    | C:\MinGW-w64\...|
-    +--------+------------------+----------+-----------------+
-
-    JSON Format Unsupported; please adjust Code
-    Current format: Nested objects
-    Expected format: Array of objects
+  - ![json_print_table](screenshots/json_print_table.png)
   - Tree View (`json_print_tree.c`): Shows hierarchical JSON structure
-  - ![json_print_tree](https://github.com/user-attachments/assets/9e7d094a-b347-480e-b5cc-3f4da217b72f)
+  - ![json_print_tree](screenshots/json_print_tree.png)
 
 - **Table View Features**:
   - Dynamic column width adjustment
