@@ -55,7 +55,7 @@ Input JSON (json_example.json):
  - cJSON library (included)
  - Standard C libraries
 
-## Limitations
+## Limitations (Modifiable)
  - Maximum file size: 100KB
  - Maximum field width: 30 characters
  - Maximum displayed fields: 10
