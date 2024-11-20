@@ -28,7 +28,6 @@ Input JSON ([`json_example.json`](json_example.json)):
 }
 ```
 ## Usage
-- ## Usage
 Please see [`json_print_example.txt`](json_print_example.txt)
 
 - **Two Display Modes**:
