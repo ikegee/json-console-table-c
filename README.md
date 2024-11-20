@@ -46,11 +46,13 @@ Input JSON ([`json_example.json`](json_example.json)):
   - Row count limits for large datasets
   - Truncation of long text fields
   - Column filters and formatting rules
+  - Nested objects display as [obj]
   
 - **Tree View Features**:
   - Visual hierarchy with indentation
   - Type indicators (Array, Object, String, Number)
   - Clear parent-child relationship display
+  - Full depth visualization
   
 ## Requirements
  - C compiler (gcc recommended)
