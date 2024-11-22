@@ -63,5 +63,5 @@ Input JSON ([`json_example.json`](json_example.json)):
   - Nested JSON structures `(nested objects display as [obj] in tables - use tree view for full depth visualization)`
 
 ## License
- - This project is licensed under the MIT License. See the LICENSE file for details.
+ - This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
  - cJSON library is Copyright (c) 2009-2017 Dave Gamble and cJSON contributors.
